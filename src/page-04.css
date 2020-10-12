@@ -1,0 +1,21 @@
+.circle {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.circle.active {
+    animation: change 1s linear infinite;
+}
+
+@keyframes change {
+    0% {
+        background: pink;
+    }
+    100% {
+        background: purple;
+    }
+}

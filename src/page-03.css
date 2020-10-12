@@ -1,0 +1,12 @@
+.box {
+    width: 10vw;
+    height: 10vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    border: 1px solid gray;
+    transition: all 0.3s;
+}
+
+.box.move {
+    transform: translateX(15vw);
+}

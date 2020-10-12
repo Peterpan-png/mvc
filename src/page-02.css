@@ -1,0 +1,30 @@
+.page-02>ol {
+    margin-left: 200px;
+}
+
+ol,
+li {
+    list-style: none;
+}
+
+.tab-bar {
+    display: flex;
+}
+
+.tab-bar>li {
+    border: 1px solid gray;
+    width: 50%;
+}
+
+.tab-bar>li.selected {
+    background-color: pink;
+    width: 50%;
+}
+
+.tab-content>li {
+    display: none;
+}
+
+.tab-content>li.active {
+    display: block;
+}
